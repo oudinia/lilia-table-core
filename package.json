@@ -1,0 +1,29 @@
+{
+  "name": "@lilia/table-core",
+  "version": "0.1.0",
+  "description": "Framework-agnostic core for the Lilia LaTeX table editor — data model, booktabs generator, cell tokenizer, and immutable structural transforms. No React/DOM. Shared by web (lilia-cloud) and React Native (lilia-mobile).",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": ["lilia", "latex", "table", "booktabs"],
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
