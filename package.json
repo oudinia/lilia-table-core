@@ -14,10 +14,12 @@
   },
   "files": ["dist", "src"],
   "sideEffects": false,
+  "repository": { "type": "git", "url": "git+https://github.com/oudinia/lilia-table-core.git" },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "clean": "rm -rf dist",
     "typecheck": "tsc --noEmit",
+    "prepare": "tsc -p tsconfig.json",
     "prepublishOnly": "npm run clean && npm run build"
   },
   "keywords": ["lilia", "latex", "table", "booktabs"],
