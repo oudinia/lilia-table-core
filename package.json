@@ -23,7 +23,7 @@
     "prepublishOnly": "npm run clean && npm run build"
   },
   "keywords": ["lilia", "latex", "table", "booktabs"],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "typescript": "^5.6.0"
