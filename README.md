@@ -1,3 +1,11 @@
+> ## ⚠️ Dormant — Parked
+>
+> Never published to npm and never consumed by either web app; `TableData.rows` here is still `string[][]`, while the editor's model has moved to `Cell[][]` with spans. Parked deliberately — see the 19 September scope decision in `lilia-docs`.
+>
+> *Marked 20 September 2026. The active Lilia stack is `lilia-editor-api`, `lilia-web-editor`, `lilia-docs`, `lilia-cloud` and `lilia-latex-service`.*
+
+---
+
 # @lilia/table-core
 
 Framework-agnostic core for the Lilia **LaTeX table editor**. Pure TypeScript —
